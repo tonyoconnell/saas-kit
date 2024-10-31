@@ -138,7 +138,7 @@ auth_token = "env(SUPABASE_AUTH_SMS_TWILIO_AUTH_TOKEN)"
 # `discord`, `facebook`, `github`, `gitlab`, `google`, `keycloak`, `linkedin_oidc`, `notion`, `twitch`,
 # `twitter`, `slack`, `spotify`, `workos`, `zoom`.
 [auth.external.google]
-enabled = true
+enabled = false
 client_id = "env(SUPABASE_AUTH_EXTERNAL_GOOGLE_CLIENT_ID)"
 # DO NOT commit your OAuth provider secret to git. Use environment variable substitution instead:
 secret = "env(SUPABASE_AUTH_EXTERNAL_GOOGLE_SECRET)"
@@ -151,22 +151,22 @@ url = ""
 skip_nonce_check = false
 
 [auth.external.twitter]
-enabled = true
+enabled = false
 client_id = "env(SUPABASE_AUTH_EXTERNAL_TWITTER_CLIENT_ID)"
 secret = "env(SUPABASE_AUTH_EXTERNAL_TWITTER_SECRET)"
 
 # [auth.external.apple]
-# enabled = true
+# enabled = false
 # client_id = "env(SUPABASE_AUTH_EXTERNAL_APPLE_CLIENT_ID)"
 # secret = "env(SUPABASE_AUTH_EXTERNAL_APPLE_SECRET)"
 
 # [auth.external.facebook]
-# enabled = true
+# enabled = false
 # client_id = "env(SUPABASE_AUTH_EXTERNAL_FACEBOOK_CLIENT_ID)"
 # secret = "env(SUPABASE_AUTH_EXTERNAL_FACEBOOK_SECRET)"
 
 [auth.external.github]
-enabled = true
+enabled = false
 client_id = "env(SUPABASE_AUTH_EXTERNAL_GITHUB_CLIENT_ID)"
 secret = "env(SUPABASE_AUTH_EXTERNAL_GITHUB_SECRET)"
 
